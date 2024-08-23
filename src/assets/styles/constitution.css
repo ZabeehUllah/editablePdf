@@ -41,6 +41,7 @@
 .constitution-description2 {
     outline: none;
     border: 2px solid transparent;
+    padding: 4px;
 }
 
 .constitution-title:focus,
