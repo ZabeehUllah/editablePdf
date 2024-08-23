@@ -35,6 +35,14 @@
     transform: translateX(100px);
 }
 
+.constitution-title,
+.constitution-subtitle,
+.constitution-description,
+.constitution-description2 {
+    outline: none;
+    border: 2px solid transparent;
+}
+
 .constitution-title:focus,
 .constitution-subtitle:focus,
 .constitution-description:focus,
@@ -42,8 +50,7 @@
 .constitution-title:focus-within,
 .constitution-description:focus-within,
 .constitution-description2:focus-within,
-.constitution-subtitle:focus,
-:focus-within {
+.constitution-subtitle:focus {
     border: 2px solid #005de3;
     border-radius: 5px;
     box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
