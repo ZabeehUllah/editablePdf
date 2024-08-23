@@ -9,7 +9,10 @@ interface ArrowIconProps {
 const ArrowIcon = ({ isScrolledDown, onClick }: ArrowIconProps) => {
     return (
         <div className="arrow-icon" onClick={onClick}>
-            {isScrolledDown ? <FaArrowAltCircleUp color="white" size={30} /> : <FaArrowCircleDown color="white" size={30} />}
+            {isScrolledDown ?
+                <FaArrowAltCircleUp color="white" size={30} cursor={'pointer'} /> :
+                <FaArrowCircleDown color="white" size={30} cursor={'pointer'} />
+            }
         </div>
     );
 };

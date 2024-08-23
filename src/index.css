@@ -11,6 +11,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgb(128, 125, 125);
   font-family: 'YourFontName', sans-serif;
 }
 
@@ -26,11 +27,9 @@ body {
 .arrow-icon {
   position: fixed;
   bottom: 10px;
-  /* Adjust as needed */
   left: 50%;
   transform: translateX(-50%);
   z-index: 1000;
-  /* Ensures it is on top of other content */
   animation: bounce 2s infinite;
 }
 
@@ -46,11 +45,9 @@ body {
 
   40% {
     transform: translateY(-20px);
-    /* Adjust the height of the bounce */
   }
 
   60% {
     transform: translateY(-10px);
-    /* Adjust the height of the bounce */
   }
 }

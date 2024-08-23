@@ -58,9 +58,19 @@
         font-size: 30px;
     }
 
-    .description {
+    .constitution-description {
         font-size: 14px;
     }
+
+    .constitution-description2 {
+        font-size: 14px;
+    }
+
+
+    .constitution-subtitle {
+        font-size: 16px;
+    }
+
 
     .instruction {
         font-size: 14px;

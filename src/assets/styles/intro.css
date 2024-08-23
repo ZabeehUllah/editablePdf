@@ -12,7 +12,7 @@
 }
 
 .text-content {
-    background-color: aliceblue;
+    background-color: white;
     padding: 40px 60px 10px 60px;
     flex: 1;
 }
@@ -106,27 +106,18 @@
     .text-content {
         padding: 20px 30px 10px 30px;
     }
+
+    .text-content hr {
+        border: 0;
+        height: 2px;
+        border-radius: 10px;
+        background-color: #005de3;
+        width: 65px;
+        margin: 0 0 12px 40px;
+    }
 }
 
 @media (max-width: 576px) {
-    .title {
-        font-size: 24px;
-    }
-
-    .description {
-        font-size: 12px;
-    }
-
-    .instruction {
-        font-size: 12px;
-    }
-
-    .text-content {
-        padding: 15px 20px 10px 20px;
-    }
-}
-
-@media (max-width: 400px) {
     .text-content {
         padding-left: 20px !important;
     }
